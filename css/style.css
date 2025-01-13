@@ -1,0 +1,61 @@
+li {
+	list-style: none;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header_title {
+	text-align: center;
+	padding: 10px;
+	font-size: 26px;
+}
+
+.radio_btns {
+	display: block;
+	text-align: right;
+	align-items: center;
+	margin: 25px 0;
+}
+
+.radio_btns label {
+	font-size: 11px;
+}
+
+.results {
+	margin-top: 100px;
+	height: 400px;
+}
+
+.list_character {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.list_character li {
+	width: 30%;
+}
+
+.list_character article {
+	text-align: center;
+}
+
+.character_img img {
+	width: 30%;
+}
+
+.character_name {
+	padding: 10px;
+}
+
+.footer {
+	padding: 16px;
+	text-align: center;
+	font-size: 14px;
+	color: #777;
+	margin-top: 20px;
+}

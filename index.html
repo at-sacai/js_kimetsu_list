@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<h1 class="header_title">DEMON SLAYER API</h1>
+			</header>
+			<div class="radio_btns"><input type="radio" id="all_characters" name="filter" value="all_characters" checked /><label for="all_characters">All Characters</label> <input type="radio" id="demon_slayer_corps" name="filter" value="demon_slayer_corps" /><label for="demon_slayer_corps">Demon Slayer Corps</label> <input type="radio" id="hashira" name="filter" value="hashira" /><label for="hashira">Hashira</label> <input type="radio" id="demons" name="filter" value="demons" /><label for="demons">Demons</label></div>
+			<div class="results">
+				<div class="characters">
+					<ul class="list_character"></ul>
+				</div>
+			</div>
+			<footer class="footer">
+				<p>&copy; 2024 Atsuhiro Blog. All rights reserved.</p>
+			</footer>
+		</div>
+		<template id="template">
+			<li>
+				<article>
+					<div class="character_img"><img alt="character_img" /></div>
+					<div class="character_name"></div>
+					<div class="character_category"></div>
+				</article>
+			</li>
+		</template>
+		<script src="./script.js"></script>
+	</body>
+</html>
